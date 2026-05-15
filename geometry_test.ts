@@ -8,4 +8,5 @@ Deno.test("RectangleAdapter adapts Quadratic as a Rectangular object", () => {
   assertEquals(Calculator.getArea(adapted), 9);
   assertEquals(Calculator.getPerimeter(adapted), 12);
   assertEquals(Calculator.getDiagonal(adapted), Math.sqrt(18));
+  assertEquals(Calculator.getWidthHeightRatio(adapted), 1)
 });
